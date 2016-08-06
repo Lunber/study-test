@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>点击</title>
+    <link type="text/css" rel="stylesheet" href="style.css">
+</head>
+<body>
+<validator name="validation1">
+    <form novalidate>
+        <input type=button @click="btnClick($event)" value="点击">
+    </form>
+</validator>
+
+<div v-if="ifAlert" class="alert-div" v-bind:class="{'alert-div-show':ifClass}"></div>
+
+</body>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vue/1.0.26/vue.min.js"></script>
+<script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/vue-validator/2.1.5/vue-validator.min.js"></script>
+<script type="text/javascript" src="index.js"></script>
+</html>

@@ -1,0 +1,17 @@
+.alert-div {
+    width: 100px;
+    height: 100px;
+    background: #2F6FAD;
+    opacity: 0;
+    transition: width 2s , background 2s , opacity 1s;
+    -moz-transition: width 2s , background 2s , opacity 0.5s;	/* Firefox 4 */
+    -webkit-transition: width 2s , background 2s , opacity 1s;	/* Safari 和 Chrome */
+    -o-transition: width 2s , background 2s , opacity 1s;
+}
+
+.alert-div-show{
+    width: 100px;
+    /*background: #880000;*/
+    opacity: 1;
+
+}
