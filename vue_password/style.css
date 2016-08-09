@@ -1,0 +1,24 @@
+.pwd{
+    width: 612px;
+    height: 100px;
+}
+
+.pwd-span{
+    display: block;
+    width: 100px;
+    height: 100px;
+    font-size: 50px;
+    float: left;
+    border: 1px solid #c7c7cc;
+    line-height: 100px;
+    text-align: center;
+}
+
+.show{
+    color: black;
+}
+
+/*input{*/
+    /*position: absolute;*/
+    /*top:-999px;*/
+/*}*/

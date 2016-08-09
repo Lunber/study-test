@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>点击</title>
+    <link type="text/css" rel="stylesheet" href="style.css">
+</head>
+<body>
+<validator name="validation1">
+    <form novalidate>
+        <input type=text @input="input($event)" value="" maxlength="6" v-el:input-el>
+    </form>
+</validator>
+
+<ul class="pwd">
+    <li v-for="i in arr" class="pwd-span">{{i.a}}</li>
+</ul>
+</body>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vue/1.0.26/vue.min.js"></script>
+<script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/vue-validator/2.1.5/vue-validator.min.js"></script>
+<script type="text/javascript" src="index.js"></script>
+</html>
